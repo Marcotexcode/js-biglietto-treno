@@ -34,4 +34,4 @@ if (eta < 18) {
 
 
 
-console.log(sconto + '€');
+console.log(sconto.toFixed(2)  + '€');
