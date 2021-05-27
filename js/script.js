@@ -11,3 +11,9 @@
 // L'output del prezzo finale va messo fuori in forma umana 
 // (con massimo due decimali, per indicare centesimi sul prezzo).
 // Questo richiederà un minimo di ricerca.
+
+
+var chilometri = prompt('Quanti chilometri vuoi percorrere?');
+var eta = prompt('Quanti anni hai?');
+
+
