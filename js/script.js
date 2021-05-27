@@ -17,7 +17,6 @@
 var chilometri = prompt('Quanti chilometri vuoi percorrere?');
 var eta = prompt('Quanti anni hai?');
 
-
 var prezzoBiglietto = chilometri * 0.21;
 
 if (eta < 18) {
@@ -30,6 +29,7 @@ if (eta < 18) {
 
 } else {
     var sconto = prezzoBiglietto;
+    
 }
 
 var prezzo = sconto.toFixed(2)  + '€';
