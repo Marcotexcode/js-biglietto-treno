@@ -32,6 +32,7 @@ if (eta < 18) {
     var sconto = prezzoBiglietto;
 }
 
+var prezzo = sconto.toFixed(2)  + '€';
 
 
-console.log(sconto.toFixed(2)  + '€');
+document.getElementById('prezzo').innerHTML = 'Costo: ' + prezzo;

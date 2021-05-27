@@ -1,0 +1,39 @@
+
+
+
+
+body {
+    background-image: url(../img/1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.box {
+    border-radius: 20px;
+    width: 600px;
+    height: 500px;
+    margin: 100px auto;
+    border: 1px solid #000;
+    text-align: center;
+    padding: 30px;
+    background-color: rgba(68, 52, 52, 0.4);
+}
+
+.box img {
+    width: 100%;
+    display: block;
+}
+
+.box 
+
+#prezzo{
+    font-size: 70px;
+    color: white;
+}
