@@ -14,11 +14,14 @@
 // Questo richiederà un minimo di ricerca.
 
 
+// Chiedere all utente 
 var chilometri = prompt('Quanti chilometri vuoi percorrere?');
 var eta = prompt('Quanti anni hai?');
 
+// Calcolo prezzo biglietto chilometri * 0.21
 var prezzoBiglietto = chilometri * 0.21;
 
+// Condizione che applica lo sconto in base all' eta del utente
 if (eta < 18) {
 
     var sconto = prezzoBiglietto - prezzoBiglietto * 20 / 100;
@@ -28,11 +31,15 @@ if (eta < 18) {
     var sconto = prezzoBiglietto - prezzoBiglietto * 40 / 100;
 
 } else {
+    
     var sconto = prezzoBiglietto;
     
 }
 
+// Arrotondare il risultato a un numero di 2 decimali per indicare i centesimi sul prezzo
+// Il metodo toFixed() converte un numero in una stringa, arrotondando a un numero specificato di decimali.
 var prezzo = sconto.toFixed(2)  + '€';
 
 
+// stampare il risultato in un id sull' tag HTML tramite getElementById
 document.getElementById('prezzo').innerHTML = 'Costo: ' + prezzo;
